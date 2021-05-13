@@ -25,6 +25,7 @@ ul {
 /* CLASSES */
 
 .nav-bar {
+  box-shadow: 3px 2px 2px #212121;
   size: 100%;
   margin: 0px;
 }
