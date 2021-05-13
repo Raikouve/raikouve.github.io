@@ -40,20 +40,13 @@ ul {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  text-align: end;
-}
-
-.sub-bar a, img{
-  display: flex;
-  text-align: end;
-}
-
-.flags {
-  text-align: right;
+  text-align: center;
 }
 
 .flags img{
-  margin: 10px;
   max-width: 35px;
-  text-align: end;
+}
+
+.my-name {
+  margin: 10px 20px;
 }
