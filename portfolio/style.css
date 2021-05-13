@@ -50,3 +50,8 @@ ul {
 .my-name {
   margin: 10px 20px;
 }
+
+.foto-toni {
+  border-radius: 100%;
+  box-shadow: 3px 2px 2px #21212125;
+}
