@@ -5,12 +5,13 @@
 /* TAGS */
 
 body {
-  background-image: linear-gradient(white, #ececec);
+  background-image: linear-gradient(to bottom right, #0A5DA4, #062958);
+  color: #fafafa;
   font-family:Roboto, sans-serif;
 }
 
 h1 {
-  color: #062958;
+  color: #fafafa;
   font-size: 36px;
 }
 
@@ -18,8 +19,12 @@ a {
   text-decoration: none;
 }
 
-ul {
+/* ul {
   list-style: none;
+} */
+
+nav {
+  margin: 0;
 }
 
 /* CLASSES */
@@ -31,12 +36,13 @@ ul {
 }
 
 .nav-bar a{
-  color: white;
+  color: #fafafa;
 }
 
 .nav-bar ul{
   background-image: 
   linear-gradient(to right, #062958, #0A5DA4);
+  list-style: none;
   display: flex;
   justify-content: space-between;
   padding: 20px;
@@ -47,11 +53,34 @@ ul {
   max-width: 35px;
 }
 
+.presentation {
+  background-color: #fafafa;
+  height: 100vh;
+}
+
+.front-art {
+  display: flex;
+  padding: 40px;
+}
+
+.front-art img {
+  max-width: 500px;
+}
+
 .my-name {
+  color: #fafafa;
   margin: 10px 20px;
 }
 
-.foto-toni {
+.my-photo {
   border-radius: 100%;
   box-shadow: 3px 2px 2px #21212125;
+}
+
+/* ID'S */
+
+#front-phrase {
+  color: #212121;
+  display: inline-flex;
+  justify-content: center;
 }
