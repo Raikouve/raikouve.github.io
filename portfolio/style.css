@@ -5,7 +5,7 @@
 /* TAGS */
 
 body {
-  background-color: #fafafa;
+  background-color: #26BAF5;
   color: #212121;
   font-size: 16px;
   font-family:Roboto, sans-serif;
@@ -84,6 +84,7 @@ nav {
 .nav-bar a:hover {
   color: #26BAF5;
   font-weight: 500;
+  text-align: center;
 }
 
 .nav-bar ul {
@@ -137,6 +138,37 @@ div.flags #en:hover {
   max-width: 250px;
 }
 
+/* ABOUT ME */
+
+div.about-me {
+  background-color: #26BAF5;
+  margin: 0;
+  height: 100vh;
+}
+
+div.about-me img.clouds {
+  bottom: -102.67%;
+  border: 0;
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+div.about-me img.builds {
+  bottom: -102.67%;
+  border: 0;
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+  position: absolute;
+}
+
+div.about-me div.description {
+  z-index: 5;
+}
+
 /* SCROLLBAR */
 
 ::-webkit-scrollbar {
@@ -146,8 +178,8 @@ div.flags #en:hover {
   scrollbar-width: none;
   width: 15px;
 }
-/* 
-::-webkit-scrollbar-track {
+
+/* ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 1px #2121213b;
   border-radius: 15px;
 }
