@@ -99,11 +99,11 @@ div.flags img {
   max-width: 35px;
 }
 
-div.flags #en {
+div.flags #br {
   opacity: 40%;
 }
 
-div.flags #en:hover {
+div.flags #br:hover {
   opacity: 100%;
 }
 
