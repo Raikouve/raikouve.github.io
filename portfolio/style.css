@@ -51,6 +51,16 @@ div.presentation img.clouds {
   position: absolute;
 }
 
+.front-art {
+  display: flex;
+  padding: 40px;
+}
+
+.front-art img {
+  max-width: 500px;
+}
+
+
 /* NAVBAR */
 
 nav {
@@ -112,15 +122,6 @@ div.flags #en:hover {
   height: 100vh;
 }
 
-.front-art {
-  display: flex;
-  padding: 40px;
-}
-
-.front-art img {
-  max-width: 500px;
-}
-
 .my-name {
   color: #fafafa;
   margin: 10px 20px;
@@ -131,3 +132,25 @@ div.flags #en:hover {
   box-shadow: 3px 2px 2px #21212125;
   max-width: 250px;
 }
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+  background-color: #fafafa;
+  display: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  width: 15px;
+}
+/* 
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px #2121213b;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #212121;
+  border-radius: 15px;
+  box-shadow: inset 0 0 5px #00000033;
+}
+ */
