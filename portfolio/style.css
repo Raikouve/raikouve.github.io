@@ -81,6 +81,11 @@ nav {
   z-index: 5;
 }
 
+.nav-bar a:hover {
+  color: #26BAF5;
+  font-weight: 500;
+}
+
 .nav-bar ul {
   align-items: center;
   justify-content: space-between;
@@ -96,7 +101,6 @@ nav.nav-bar li {
   position: absolute;
   left: 40px;
   top: 40px;
-
 }
 
 div.flags {
