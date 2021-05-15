@@ -166,6 +166,7 @@ div.about-me img.builds {
 }
 
 div.about-me div.description {
+  position: absolute;
   z-index: 5;
 }
 
