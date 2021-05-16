@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* TAGS */
 
 body {
@@ -238,4 +242,3 @@ div.description strong {
   border-radius: 15px;
   box-shadow: inset 0 0 5px #00000033;
 } 
-

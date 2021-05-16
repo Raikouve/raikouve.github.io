@@ -2,12 +2,16 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* TAGS */
 
 body {
-  background-color: #fafafa;
-  font-size: 16px;
+  background-color: #26BAF5;
   color: #212121;
+  font-size: 16px;
   font-family:Roboto, sans-serif;
 }
 
@@ -51,6 +55,16 @@ div.presentation img.clouds {
   position: absolute;
 }
 
+.front-art {
+  display: flex;
+  padding: 40px;
+}
+
+.front-art img {
+  max-width: 500px;
+}
+
+
 /* NAVBAR */
 
 nav {
@@ -60,43 +74,47 @@ nav {
 }
 
 .nav-bar {
-  background-color: #fafafa;
+  background-color: #fafafaf3;
   box-shadow: 2px 1px 2px 2px #21212157;
+  position: fixed;
   size: 100%;
   margin: 0px;
+  width: 100%;
+  z-index: 5;
 }
 
 .nav-bar a {
   color: #212121;
-  z-index: 5;
+  z-index: 4;
 }
 
 .nav-bar a:hover {
   color: #26BAF5;
   font-weight: 500;
+  text-align: center;
 }
 
 .nav-bar ul {
   align-items: center;
-  justify-content: space-between;
+  gap: 15em;
+  justify-content: center;
   list-style: none;
   display: flex;
   padding: 15px;
   text-align: center;
   left: 40px;
-
 }
 
 nav.nav-bar li {
   position: absolute;
   left: 40px;
   top: 40px;
-
 }
 
 div.flags {
   display: flex;
   justify-content: space-between;
+  /* margin-left: 15%; */
 }
 
 div.flags img {
@@ -117,13 +135,36 @@ div.flags #br:hover {
   height: 100vh;
 }
 
-.front-art {
-  display: flex;
-  padding: 40px;
+/* ABOUT ME */
+
+div.about-me {
+  background-color: #26BAF5;
+  margin: 0;
+  height: 100vh;
 }
 
-.front-art img {
-  max-width: 500px;
+div.about-me img.clouds {
+  bottom: -102.67%;
+  border: 0;
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+div.about-me img.builds {
+  bottom: -102.67%;
+  border: 0;
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+  position: absolute;
+}
+
+div.about-me div.description {
+  position: absolute;
+  z-index: 3;
 }
 
 .my-name {
@@ -133,29 +174,71 @@ div.flags #br:hover {
 
 .my-photo {
   border-radius: 100%;
-  box-shadow: 3px 2px 2px #21212125;
-  max-width: 25
-  0px;
+  box-shadow: 4px 3px 3px 1px #21212125;
+  max-width: 200px;
+}
+
+div.about-me div.my-card {
+  background-color: #fafafa;
+  border-radius: 8%;
+  box-shadow: 4px 3px 3px 1px #21212121;
+  left: 950px;
+  padding: 20px;
+  position: absolute;
+  text-align: center;
+  top: 200px;
+  z-index: 5;
+}
+
+div.my-card h1 {
+  color: #212121;
+}
+
+#speech-bubble {
+  left: 350px;
+  margin: 0;
+  padding: 0;
+	position: absolute;
+  top: 250px;
+}
+
+#speech-bubble img {
+  max-width: 550px;
+}
+
+#balloon-phrase {
+  left: 370px;
+  width: 450px;
+  position: absolute;
+  top: 290px;
+}
+
+div.description p {
+  font-size: 1.8em;
+  display: inline;
+}
+
+div.description strong {
+  color: #26BAF5;
 }
 
 /* SCROLLBAR */
 
 ::-webkit-scrollbar {
   background-color: #fafafa;
-  display: none;
+/*   display: none;
   -ms-overflow-style: none;
-  scrollbar-width: none;
-  width: 15px;
+  scrollbar-width: none; */
+  width: 7px;
 }
-/* 
+
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 1px #2121213b;
   border-radius: 15px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #212121;
+  background: #26BAF5;
   border-radius: 15px;
   box-shadow: inset 0 0 5px #00000033;
-}
- */
+} 
