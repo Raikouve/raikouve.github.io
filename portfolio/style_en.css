@@ -134,7 +134,8 @@ div.flags #br:hover {
 .my-photo {
   border-radius: 100%;
   box-shadow: 3px 2px 2px #21212125;
-  max-width: 250px;
+  max-width: 25
+  0px;
 }
 
 /* SCROLLBAR */
