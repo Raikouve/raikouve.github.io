@@ -302,7 +302,7 @@ div.projects img {
 div.projects div.projects-presentation {
   display: inline;
   left: 40%;
-  max-width: 50%;
+  max-width: 40%;
   position: absolute;
   top: 235%
 }
