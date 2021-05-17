@@ -252,11 +252,12 @@ div.projects div.projects-anchor {
 div.projects img.soil {
   bottom: -202.22%;
   border: 0;
+  height: 100%;
   margin: 0;
   max-width: 100%;
   padding: 0;
   position: absolute;
-  z-index: 1;
+  z-index: 2;
 }
 
 div.projects .ground {
@@ -266,7 +267,25 @@ div.projects .ground {
   max-width: 100%;
   padding: 0;
   position: absolute;
-  z-index: 5;
+  z-index: 3;
+}
+
+div.projects .brickwall {
+  border: 0;
+  bottom: -200%;
+  display: flex;
+  height: 100%;
+  left: 1%;
+  max-width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+  padding: 0;
+  position: absolute;
+  z-index: 4;
+}
+
+div.projects img.brickwall {
+  height: auto;
 }
 
 div.projects .ladder {
